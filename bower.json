@@ -1,0 +1,24 @@
+{
+  "name": "pdx-functions",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Sass functions for Predix Design Extension",
+  "main": "_tools.functions.scss",
+  "keywords": [
+    "pdx",
+    "sass",
+    "functions"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.sw.ge.com/jrogerson/pdx-functions.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
