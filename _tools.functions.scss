@@ -1,0 +1,4 @@
+@function calculateRem($size) {
+  $remSize: $size / $inuit-base-font-size;
+  @return #{$remSize}rem;
+}
