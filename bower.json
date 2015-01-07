@@ -12,7 +12,7 @@
     "functions"
   ],
   "license": "Apache 2",
-  "homepage": "https://github.sw.ge.com/jrogerson/pdx-functions.git",
+  "homepage": "git@github.sw.ge.com:jrogerson/pdx-functions.git",
   "private": true,
   "ignore": [
     "**/.*",
