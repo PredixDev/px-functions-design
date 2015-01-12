@@ -1,4 +1,4 @@
-pdx-functions
+px-functions
 =============
 
-Sass functions for Predix Design Extension
+Sass functions for Predix Experience

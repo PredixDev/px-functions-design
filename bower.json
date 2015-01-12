@@ -1,10 +1,10 @@
 {
-  "name": "pdx-functions",
+  "name": "px-functions",
   "version": "0.0.1",
   "authors": [
     "General Electric"
   ],
-  "description": "Sass functions for Predix Design Extension",
+  "description": "Sass functions for Predix Experience",
   "main": "_tools.functions.scss",
   "keywords": [
     "pdx",
@@ -12,7 +12,7 @@
     "functions"
   ],
   "license": "Apache 2",
-  "homepage": "git@github.sw.ge.com:jrogerson/pdx-functions.git",
+  "homepage": "git://github.sw.ge.com/jrogerson/px-functions.git",
   "private": true,
   "ignore": [
     "**/.*",
