@@ -7,7 +7,7 @@
   "description": "Sass functions for Predix Experience",
   "main": "_tools.functions.scss",
   "keywords": [
-    "pdx",
+    "px",
     "sass",
     "functions"
   ],
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-functions": "0.2.0"
+    "inuit-functions": "~0.2.0"
   }
 }
