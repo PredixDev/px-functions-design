@@ -1,4 +1,12 @@
-@import "lib/inuit-functions/tools.functions";
+/*------------------------------------*\
+    #PX-FUNCTIONS
+\*------------------------------------*/
+
+/**
+ * Sass functions for Predix Experience
+ */
+
+@import "inuit-functions/tools.functions";
 
 @function calculateRem($size) {
   $remSize: $size / $inuit-base-font-size;
