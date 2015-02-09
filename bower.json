@@ -1,5 +1,5 @@
 {
-  "name": "px-functions",
+  "name": "px-functions-design",
   "version": "0.0.1",
   "authors": [
     "General Electric"
@@ -12,7 +12,7 @@
     "functions"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/jrogerson/px-functions.git",
+  "homepage": "git://github.sw.ge.com/pxc/px-functions-design.git",
   "private": true,
   "ignore": [
     "**/.*",
