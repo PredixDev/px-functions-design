@@ -18,7 +18,7 @@ Install this module and its dependencies using bower
 
     bower install --save https://github.sw.ge.com/pxc/px-functions-design.git
 
-Once installed, `@import` into your project's Sass file in its Generic layer:
+Once installed, `@import` into your project's Sass file in its Tools layer:
 
     @import "px-functions-design/sass/tools.functions";
 
