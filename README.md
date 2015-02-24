@@ -2,7 +2,9 @@
 
 The Predix Experience Functions module—like the Mixins module—contains a few Sass functions that are **required** for using virtually all Predix Experience and inuitcss modules.
 
-## Dependencies
+## Dependency
+
+Px's Functions module depends on one other inuitcss module:
 
 * [inuit-functions](https://github.com/inuitcss/tools.functions)
 
@@ -14,7 +16,7 @@ The normalize module is also an upstream dependency in this meta kit:
 
 ## Installation
 
-Install this module and its dependencies using bower
+Install this module and its dependency using bower:
 
     bower install --save https://github.sw.ge.com/pxc/px-functions-design.git
 
