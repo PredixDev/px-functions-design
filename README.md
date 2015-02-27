@@ -10,7 +10,7 @@ Px's Functions module depends on one other inuitcss module:
 
 ## Upstream dependency
 
-The normalize module is also an upstream dependency in this meta kit:
+The Functions module is also an upstream dependency in this meta kit:
 
 * [px-starter-kit-design](https://github.sw.ge.com/pxc/px-starter-kit-design)
 
