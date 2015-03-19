@@ -21,3 +21,11 @@
   $imported-once-files: append($imported-once-files, $filename);
   @return true;
 }
+
+@function third($inuit-number) {
+  @return round($inuit-number / 3);
+}
+
+@function triple($inuit-number) {
+  @return round($inuit-number * 3);
+}
