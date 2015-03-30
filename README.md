@@ -12,19 +12,19 @@ Px's Functions module depends on one other inuitcss module:
 
 The Functions module is also an upstream dependency in this meta kit:
 
-* [px-starter-kit-design](https://github.sw.ge.com/pxc/px-starter-kit-design)
+* [px-starter-kit-design](https://github.sw.ge.com/PXd/px-starter-kit-design)
 
 ## Installation
 
 Install this module and its dependency using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-functions-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-functions-design.git
 
 Once installed, `@import` into your project's Sass file in its Tools layer:
 
     @import "../px-functions-design/tools.functions";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Functions provided
 

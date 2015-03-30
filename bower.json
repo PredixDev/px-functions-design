@@ -12,7 +12,7 @@
     "functions"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-functions-design.git",
+  "homepage": "git://github.sw.ge.com/PXd/px-functions-design.git",
   "private": true,
   "ignore": [
     "**/.*",
