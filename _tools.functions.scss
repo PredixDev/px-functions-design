@@ -10,7 +10,9 @@
 
 @function calculateRem($size) {
   $remSize: $size / $inuit-base-font-size;
-  @return #{$remSize}rem;
+  $remUnit: 1rem;
+
+  @return $remSize * $remUnit;
 }
 
 @function import-once($filename) {
