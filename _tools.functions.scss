@@ -1,13 +1,14 @@
-/*------------------------------------*\
-    #PX-FUNCTIONS-DESIGN
-\*------------------------------------*/
-
-/**
- * Sass functions for Predix Experience
- */
+////
+/// PX-FUNCTIONS-DESIGN
+/// Defines Sass Functions
+/// @group px-functions-design
+////
 
 @import "../inuit-functions/tools.functions";
 
+/// @name calculateRem
+/// @param {Number} $size - pixel font size
+/// @return {Number} rem font size equivalent
 @function calculateRem($size) {
   $remSize: $size / $inuit-base-font-size;
   $remUnit: 1rem;
@@ -15,6 +16,9 @@
   @return $remSize * $remUnit;
 }
 
+/// @name import-once
+/// @param {String} $filename - scss partial filename
+/// @return {Boolean} if scss partial filename already in array return false; otherwise true
 @function import-once($filename) {
   @if index($imported-once-files, $filename) {
     @return false;
@@ -24,10 +28,16 @@
   @return true;
 }
 
+/// @name third
+/// @param {Number} $inuit-number - value to be converted to a third
+/// @return {Number} value converted to a third
 @function third($inuit-number) {
   @return round($inuit-number / 3);
 }
 
+/// @name triple
+/// @param {Number} $inuit-number - value to be tripled
+/// @return {Number} value tripled
 @function triple($inuit-number) {
   @return round($inuit-number * 3);
 }
