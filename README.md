@@ -12,12 +12,6 @@ Px's Functions module depends on one other inuitcss module:
 
 * [inuit-functions](https://github.com/inuitcss/tools.functions)
 
-## Upstream dependency
-
-The Functions module is also an upstream dependency in this meta kit:
-
-* [px-starter-kit-design](https://github.build.ge.com/PXd/px-starter-kit-design)
-
 ## Installation
 
 Install this module and its dependency using bower:
