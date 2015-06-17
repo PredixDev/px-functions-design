@@ -20,14 +20,11 @@ Install this module and its dependency using bower:
 
 Once installed, `@import` into your project's Sass file in its Tools layer:
 
-    @import "../px-functions-design/tools.functions";
+    @import "px-functions-design/_tools.functions.scss";
 
-See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
-
-## Functions provided
+## Usage
 
 The following Sass functions are provided:
 
 * `calculateRem($size)`: Convert a pixel into a rem
-* `import-once($filename)`: Append to the `$imported-once-files` array Sass files to prevent duplicate imports
 * `quarter|halve|double|quadruple|third|triple($inuit-number)`: Quarter, halve, third, double, triple, and quadruple numbers, returning rounded integers
