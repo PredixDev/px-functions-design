@@ -2,9 +2,7 @@
 
 The Predix Experience Functions module—like the Mixins module—contains a few Sass functions that are **required** for using virtually all Predix Experience and inuitcss modules.
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-functions-design/sassdoc
 
 ## Dependency
 
