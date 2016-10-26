@@ -1,6 +1,12 @@
-v0.3.5
+v1.0.1
 ==============================
 * updated to px-sass-doc#0.2.8
+
+v1.0.0
+==============================
+* Removed direct import of px-defaults-design module.
+* Added the `$intuit-base-font-size` default variable directly.
+* Updated docs to recommend the `px-defaults-design` module be installed instead of directly installing `px-functions-design`.
 
 v0.3.4
 ==============================
