@@ -1,3 +1,7 @@
+v1.0.9
+==================
+* rebuilt sass with new colors
+
 v1.0.8
 ==================
 * changing ghp.sh to account for Alpha releases
