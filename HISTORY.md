@@ -1,3 +1,7 @@
+v2.0.0
+==================
+* update dependencies for design refresh
+
 v1.0.10
 ==================
 * update demo page with px-demo styles
