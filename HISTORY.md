@@ -1,3 +1,7 @@
+v2.0.2
+==================
+* fix typos/links in docs
+
 v2.0.1
 ==================
 * runtime theming for demo
