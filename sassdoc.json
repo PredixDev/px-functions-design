@@ -2,16 +2,16 @@
     {
         "description": "Takes a font-size value in pixels and converts it to rem.\n\n",
         "commentRange": {
-            "start": 10,
-            "end": 14
+            "start": 44,
+            "end": 48
         },
         "context": {
             "type": "function",
             "name": "calculateRem",
             "code": "\n  $remSize: $size / $inuit-base-font-size;\n  $remUnit: 1rem;\n  @return $remSize * $remUnit;\n",
             "line": {
-                "start": 15,
-                "end": 19
+                "start": 49,
+                "end": 53
             }
         },
         "parameter": [
@@ -29,7 +29,12 @@
             "px-functions-design"
         ],
         "access": "public",
-        "require": [],
+        "require": [
+            {
+                "type": "variable",
+                "name": "inuit-base-font-size"
+            }
+        ],
         "file": {
             "path": "_tools.functions.scss",
             "name": "_tools.functions.scss"
@@ -38,16 +43,16 @@
     {
         "description": "Takes a font-size value in rem and converts it to pixels.\n\n",
         "commentRange": {
-            "start": 21,
-            "end": 25
+            "start": 55,
+            "end": 59
         },
         "context": {
             "type": "function",
             "name": "remToPX",
             "code": "\n  $remUnit: 1rem;\n  @return ($rem / $remUnit) * $inuit-base-font-size;\n",
             "line": {
-                "start": 26,
-                "end": 29
+                "start": 60,
+                "end": 63
             }
         },
         "parameter": [
@@ -65,7 +70,12 @@
             "px-functions-design"
         ],
         "access": "public",
-        "require": [],
+        "require": [
+            {
+                "type": "variable",
+                "name": "inuit-base-font-size"
+            }
+        ],
         "file": {
             "path": "_tools.functions.scss",
             "name": "_tools.functions.scss"
@@ -74,16 +84,16 @@
     {
         "description": "Takes a number and returns one third of that number.\n\n",
         "commentRange": {
-            "start": 31,
-            "end": 35
+            "start": 65,
+            "end": 69
         },
         "context": {
             "type": "function",
             "name": "third",
             "code": "\n  @return round($inuit-number / 3);\n",
             "line": {
-                "start": 36,
-                "end": 38
+                "start": 70,
+                "end": 72
             }
         },
         "parameter": [
@@ -110,16 +120,16 @@
     {
         "description": "Takes a number and returns three times that number.\n\n",
         "commentRange": {
-            "start": 40,
-            "end": 44
+            "start": 74,
+            "end": 78
         },
         "context": {
             "type": "function",
             "name": "triple",
             "code": "\n  @return round($inuit-number * 3);\n",
             "line": {
-                "start": 45,
-                "end": 47
+                "start": 79,
+                "end": 81
             }
         },
         "parameter": [
@@ -142,5 +152,57 @@
             "path": "_tools.functions.scss",
             "name": "_tools.functions.scss"
         }
+    },
+    {
+        "description": "Sets the project-wide base font size. Also used to calculate the base spacing unit. You should set this when you import `px-defaults-design`, but if you consume the functions module directly, you can set it here.\n\n",
+        "commentRange": {
+            "start": 38,
+            "end": 41
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-base-font-size",
+            "value": "15px",
+            "scope": "default",
+            "line": {
+                "start": 42,
+                "end": 42
+            }
+        },
+        "group": [
+            "px-functions-design:variables:style"
+        ],
+        "type": "Number [default]",
+        "access": "public",
+        "file": {
+            "path": "_tools.functions.scss",
+            "name": "_tools.functions.scss"
+        },
+        "usedBy": [
+            {
+                "description": "Takes a font-size value in pixels and converts it to rem.\n\n",
+                "context": {
+                    "type": "function",
+                    "name": "calculateRem",
+                    "code": "\n  $remSize: $size / $inuit-base-font-size;\n  $remUnit: 1rem;\n  @return $remSize * $remUnit;\n",
+                    "line": {
+                        "start": 49,
+                        "end": 53
+                    }
+                }
+            },
+            {
+                "description": "Takes a font-size value in rem and converts it to pixels.\n\n",
+                "context": {
+                    "type": "function",
+                    "name": "remToPX",
+                    "code": "\n  $remUnit: 1rem;\n  @return ($rem / $remUnit) * $inuit-base-font-size;\n",
+                    "line": {
+                        "start": 60,
+                        "end": 63
+                    }
+                }
+            }
+        ]
     }
 ]
